@@ -17,21 +17,6 @@ public class WelcomeController {
     @RequestMapping(value = "/")
     public String userList(HttpServletRequest request, HttpServletResponse response){
         try {
-            System.out.println("hello");
-            System.out.println("haha");
-            System.out.println("hehe");
-            System.out.println("aaaaa");
-            System.out.println("bbbbb");
-            System.out.println("ccccc");
-            System.out.println("ddddd");
-            System.out.println("11111");
-            System.out.println("22222");
-            System.out.println("33333");
-            System.out.println("44444");
-            System.out.println("55555");
-            System.out.println("66666");
-            System.out.println("34234");
-            System.out.println("asdas");
             response.sendRedirect("/user/list");
         } catch (IOException e) {
             e.printStackTrace();
