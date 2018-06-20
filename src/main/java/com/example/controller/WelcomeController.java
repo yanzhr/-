@@ -21,6 +21,7 @@ public class WelcomeController {
             System.out.println("haha");
             System.out.println("hehe");
             System.out.println("aaaaa");
+            System.out.println("bbbbb");
             response.sendRedirect("/user/list");
         } catch (IOException e) {
             e.printStackTrace();
