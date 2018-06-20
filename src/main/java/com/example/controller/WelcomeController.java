@@ -20,6 +20,7 @@ public class WelcomeController {
             System.out.println("hello");
             System.out.println("haha");
             System.out.println("hehe");
+            System.out.println("aaaaa");
             response.sendRedirect("/user/list");
         } catch (IOException e) {
             e.printStackTrace();
