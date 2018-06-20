@@ -18,6 +18,7 @@ public class WelcomeController {
     public String userList(HttpServletRequest request, HttpServletResponse response){
         try {
             System.out.println("hello");
+            System.out.println("haha");
             response.sendRedirect("/user/list");
         } catch (IOException e) {
             e.printStackTrace();
