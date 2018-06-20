@@ -17,6 +17,7 @@ public class WelcomeController {
     @RequestMapping(value = "/")
     public String userList(HttpServletRequest request, HttpServletResponse response){
         try {
+            System.out.println("hello");
             response.sendRedirect("/user/list");
         } catch (IOException e) {
             e.printStackTrace();
