@@ -28,6 +28,7 @@ public class WelcomeController {
             System.out.println("22222");
             System.out.println("33333");
             System.out.println("44444");
+            System.out.println("55555");
             response.sendRedirect("/user/list");
         } catch (IOException e) {
             e.printStackTrace();
